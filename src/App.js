@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Helmet } from 'react-helmet';
+import Component1 from './Component1';
 
 class App extends Component {
   render() {
@@ -20,6 +22,11 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <Helmet>
+        <title>Turbo Todo</title>
+          <meta name="theme-color" content="#008f68" />
+        </Helmet>
+        <Component1 />
       </div>
     );
   }
