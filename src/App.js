@@ -25,11 +25,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
-        <Helmet>
-        <title>Turbo Todo</title>
-          <meta name="theme-color" content="#008f68" />
-        </Helmet>
-        <Component1 />
+       
         <Switch>
                 <Route path="/"><Component1 /></Route>
                 <Route path="/about"><Component2 /></Route>
