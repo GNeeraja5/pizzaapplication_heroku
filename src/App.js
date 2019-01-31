@@ -27,8 +27,9 @@ class App extends Component {
         </header>
        
         <Switch>
-                <Route path="/"><Component1 /></Route>
+                
                 <Route path="/about"><Component2 /></Route>
+                <Route path="/exit"><Component1 /></Route>
         </Switch>
       </div>
       </Router>

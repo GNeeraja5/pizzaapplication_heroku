@@ -6,6 +6,7 @@ export default class Component1 extends React.Component {
     return (
       <div>
         <Helmet>
+          <title>first component</title>
           <meta property="og:title" content="About Our Company" />
           <meta property="og:type" content="article" />
           <meta property="og:url" content="http://www.mysite.com/article/" />

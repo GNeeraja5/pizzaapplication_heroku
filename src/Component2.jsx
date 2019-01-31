@@ -1,12 +1,12 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-export default class Component1 extends React.Component {
+export default class Component2 extends React.Component {
   render() {
     return (
       <div>
         <Helmet>
-            <title>Second component</title>
+        <title>second component</title>
           <meta property="og:title" content="About Our Company" />
           <meta property="og:type" content="article" />
           <meta property="og:url" content="http://www.mysite.com/article/" />
